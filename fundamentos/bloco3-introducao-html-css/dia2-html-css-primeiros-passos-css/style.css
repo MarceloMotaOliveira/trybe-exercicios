@@ -1,0 +1,38 @@
+body {
+    font-size: 16px;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+p {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.lista {
+    background-color: greenyellow;
+}
+
+.nova-cor {
+    background-color: grey;
+    line-height: 40px;
+    text-align: center;
+} 
+
+#linha1 {
+    background-color: yellow;
+}
+
+#linha2 {
+    background-color: red;
+}
+
+#linha3 {
+    background-color: maroon;
+}
