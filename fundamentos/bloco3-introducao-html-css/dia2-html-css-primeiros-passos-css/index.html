@@ -6,9 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML</title>
     <STyle>
+        body {
+            font-size: 16px;
+            font-style: italic;
+        }
+
         h1 {
             font-size: 65px;
             color: orange;
+            font-family: sans-serif;
+            text-decoration: underline;
+        }
+
+        p {
+            font-weight: bold;
+            font-size: 3em;
         }
 
         .lista {
@@ -17,7 +29,21 @@
 
         .nova-cor {
             background-color: grey;
+            line-height: 40px;
+            text-align: center;
         } 
+
+        #linha1 {
+            background-color: yellow;
+        }
+
+        #linha2 {
+            background-color: red;
+        }
+
+        #linha3 {
+            background-color: brown;
+        }
 
     </STyle>
 </head>
@@ -25,9 +51,11 @@
     <h1>Exercícios 3.2</h1>
     <p class="nova-cor">Qual é a sua cor favorita?</p>
     <ul class="nova-cor">
-      <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li>
+      <li id="linha1">Amarelo</li>
+      <li id="linha2">Vermelho</li>
+      <li id="linha3">Marrom</li>
     </ul>
+
+    <a href="http://www.csszengarden.com/" target="blank">css zen garden</a>
 </body>
 </html>
