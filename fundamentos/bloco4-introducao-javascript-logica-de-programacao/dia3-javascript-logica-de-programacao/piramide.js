@@ -7,19 +7,13 @@ let centro = (n+1)/2;
 let qtdDir = centro;
 let qtdEsq = centro;
 
-for (let linha = 1; linha <= n;linha +=2){
-    for (let i = 1;i >= n;i+=1){
-        if (qtdDir >= i){
-         astDir = "*";
+for (let linha = 1; linha <= n; linha +=2){
+    for (let col = 1; col <= n; col +=1){
+        if (col = centro){
+            ast = "*";
         }
-    else {
-        astDir = " ";
-    }
-    for (let index = 1; index <= n; index +=1){
-        if (qtdEsq < index){
-            astEsq = "*"
+        else {
+            ast += " ";
         }
     }
-    console.log(astEsq);
-}
 }
