@@ -67,7 +67,8 @@
         corrigeTexto();
 
         function maiusculo() {
-         document.getElementsByTagName('p')[0].innerText.toUpperCase();
+        let text = document.getElementsByTagName('p')[0];
+        text.innerHTML = text.innerHTML.toUpperCase();
                      
         };
         maiusculo();
